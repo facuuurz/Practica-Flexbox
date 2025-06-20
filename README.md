@@ -19,6 +19,6 @@
 .
 ├── index.html          # Página principal
 ├── css/
-│   └── styles.css     # Estilos principales
+│   └── style.css     # Estilos principales
 ├── IMG/            # Imágenes/iconos (opcional)
 └── README.md
