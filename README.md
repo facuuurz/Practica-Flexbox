@@ -2,7 +2,6 @@
 
 ¡Hola! 👋 Este proyecto es una página web estática desarrollada con **HTML** y **CSS**, utilizando **Flexbox** para el diseño. Perfecto para aprender maquetación web responsive.
 
-![Preview](assets/preview.jpg) *(Opcional: añade una captura de pantalla)*
 
 ## 🌟 Características
 - **Diseño Flexible**: Maquetación con Flexbox.
