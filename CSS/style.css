@@ -16,26 +16,50 @@ a{
 }
 
 header{
-    background-color: #184C78;
-    height: 8vh;
+    background-color: #1F3A8A;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-nav{
-    display: inline;
-    
-}
-
-.Hero{
-    background: linear-gradient(rgb(0,0,0,0.5)), url(../IMG/escritorio-de-oficina-a1yivbaxal92jim2.jpg) no-repeat center/cover;
-    height: 30vh;
-    text-align: center;
-}
-
-.titulo{
-    color: white;
-    background-color: rgb(0,0,0,0.3);
-    width: 400px;
+header nav a{
     padding: 10px;
+}
+
+main{
+    height: 82vh;
+    background-color: #F8F9FD;
+}
+
+footer{
+    height: 9vh;
+    background-color: #1F3A8A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* HERO */
+.Hero{
+    background:linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(../IMG/escritorio-de-oficina-a1yivbaxal92jim2.jpg) no-repeat center/cover;
+    color: white;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Hero-titulo{
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
     border-radius: 10px;
-    margin: 0 400px;
+}
+
+/* DATOS */
+.Dato{
+    background-color: #FDFDFB;
+    height: 20%;
 }
